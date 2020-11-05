@@ -1,0 +1,26 @@
+---
+# mariadb role variables
+
+mysql_root_pass: Kic77MM6E5iL
+drupal_db_user: drupal-data
+drupal_db_name: drupal-user
+drupal_db_pass: B598D8zGrLSK
+
+# PHP Variables
+date_timezone: Europe/London
+memory_limit: 512M  # Modify according to available memory on your instance
+
+# Drupal Variables
+
+drupal_version: 8.5.3
+drupal_site_path: "/var/www/drupal"
+drupal_site_name: "My Drupal Site"
+drupal_admin_username: admin
+drupal_admin_pass: 8P6YkXPzcRjh
+
+# Let's Encrypt Settings
+
+# Set it to false if domain is not configured.
+letsencrypt_generate: false
+letsencrypt_domain: mydrupal.minkeymajik.com
+letsencrypt_email: davidharrogate@hotmail.com
